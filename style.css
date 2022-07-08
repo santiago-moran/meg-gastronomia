@@ -52,7 +52,7 @@ body {
 /* INDEX */
 .containIndex {
     position: relative;
-    /* transition: all 2s; */
+    transition: all 2s;
     width: fit-content;
 }
 .imagenPrincipal{
@@ -64,9 +64,9 @@ body {
     border: solid 5px black;
     border-radius: 6px;
     object-fit: cover;
-    /* transition: opacity 1s; */
+    transition: opacity 1s;
 }
-/* .textoImagen {
+.textoImagen {
     color:white;
     font-weight: 800;
     font-style:oblique;
@@ -87,7 +87,7 @@ body {
 }
 .containIndex:hover .textoImagen{
     opacity: 100%;
-} */
+}
 
 /* MIS PLATOS */
 .titulo {
