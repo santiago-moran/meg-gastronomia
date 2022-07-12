@@ -220,6 +220,9 @@ body {
     border: solid 6px black;
     border-radius: 10px;
 }
+.carouselCatering{
+    display: none;
+}
 
 /* MEDIA QUARIES */
 @media screen and (max-width: 1024px){
@@ -238,6 +241,17 @@ body {
     }
     .footerGaleria{
         margin-top: 5%;
+    }
+    /* CATERING */
+    .Imagenes{
+        margin-left: 5%;
+    }
+    .footercatering{
+        margin-top: 5%;
+    }
+    /* CONTACTO */
+    .footerContacto{
+        margin-top: 13.8%;
     }
 }
 @media screen and (max-width: 768px){
@@ -262,7 +276,7 @@ body {
         margin-left: 7%;
     }
     .footerGaleria{
-        margin-top: 5%;
+        margin-top: 10%;
     }
     /* QUIEN SOY */
     .contenedorBibliografia__div1 img{
@@ -275,6 +289,37 @@ body {
     .footerBibliografia {
         margin-top: 13.7%;
     }
+    /* CATERING */
+    .Imagenes{
+        height: fit-content;
+    }
+    .imagenCatering{
+        width: 400px;
+    }
+    .mesaDulce{
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 90%;
+        color: white;
+    }
+    .Dulce{
+        margin-top: 20%;
+    }
+    .alimento{
+        color: white;
+    }
+    .footercatering{
+        margin-top: 0;
+    }
+    /* CONTACTO */
+    .tituloFormulario{
+        font-size: 30px;
+    }
+    .footerContacto{
+        margin-top: 26%;
+        margin-bottom: 0;
+    }
+
 }
 @media screen and (max-width: 320px){
     /* HTML GENERAL */
@@ -295,6 +340,7 @@ body {
     .imagenPrincipal{
         width: 250px;
         height: 570px;
+        margin-left: 14%;
     }
     .textoImagen {
         text-align: center;
@@ -373,5 +419,58 @@ body {
     }
     .boton a{
         font-size: 12px;
+    }
+    /* CATERING */
+    .Catering{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .TresPasos{
+        font-size: 20px;
+        width: 90%;
+    }
+    .Opciones div{
+        margin-right: 5%;
+    }
+    .Opciones div ul{
+        font-size: 15px;
+    }
+    .Dulce{
+        font-size: 20px;
+        width: 90%;
+    }
+    .imagenCatering{
+        width: 0;
+        display: none;
+    }
+    .mesaDulce{
+        margin: 0;
+        color: black;
+    }
+    .alimento{
+        color: black;
+        margin-right: 7%;
+    }
+    .carouselCatering{
+        display: block;
+        margin: 5% 5% 0 5%;
+    }
+    .fotocatering{
+        border: solid 3px black;
+        border-radius: 8px;
+    }
+    .footercatering{
+        margin-top: 15%;
+    }
+    /* CONTACTO */
+    .tituloFormulario{
+        font-size: 22px;
+    }
+    .footerContacto{
+        margin-top: 60%;
+    }
+    .container{
+        margin-top: 5%;
     }
 }
