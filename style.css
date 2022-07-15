@@ -7,8 +7,8 @@
 }
 body {
     background-image: url(./images/imagen_fondo.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 .barraNav {
     border-bottom: solid 3px black;
@@ -221,6 +221,9 @@ body {
 }
 .carouselCatering{
     display: none;
+}
+.footercatering {
+    margin-top: 5%;
 }
 
 /* MEDIA QUARIES */
