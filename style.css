@@ -6,7 +6,7 @@
     color: black;
 }
 body {
-    background-image: url(./images/imagen-fondo.png);
+    background-image: url(./images/imagen_fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color:sienna; */
