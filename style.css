@@ -9,7 +9,6 @@ body {
     background-image: url(./images/imagen_fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color:sienna; */
 }
 .barraNav {
     border-bottom: solid 3px black;
