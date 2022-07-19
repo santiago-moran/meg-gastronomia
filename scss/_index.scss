@@ -1,0 +1,37 @@
+.containIndex {
+    position: relative;
+    width: fit-content;
+    &__imagenPrincipal{
+        margin-top: 8%;
+        margin-left: 10%;
+        margin-bottom: 10.1%;
+        width: 1240px;
+        height: 500px;
+        border: map-get($borders, "image-border");
+        border-radius: 6px;
+        object-fit: cover;
+        transition: $transition;
+    }
+    &__textoImagen {
+        color:white;
+        font-weight: 800;
+        font-style:oblique;
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 37%;
+        -webkit-text-stroke: 2px black;
+        transition: $transition;
+        opacity: 0;
+        .eventosGastronomicos {
+            color: black;
+            -webkit-text-stroke: 1px white;
+        }
+    }
+    &:hover .containIndex__imagenPrincipal{
+        opacity: 30%;
+    }
+    &:hover .containIndex__textoImagen{
+        opacity: 100%;
+    }
+}

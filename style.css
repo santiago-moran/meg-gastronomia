@@ -37,46 +37,6 @@ body {
     padding-right: 0.3%;
 }
 
-/* INDEX */
-.containIndex {
-    position: relative;
-    transition: all 2s;
-    width: fit-content;
-}
-.imagenPrincipal{
-    margin-top: 8%;
-    margin-left: 10%;
-    margin-bottom: 10.1%;
-    width: 1240px;
-    height: 500px;
-    border: solid 5px black;
-    border-radius: 6px;
-    object-fit: cover;
-    transition: opacity 1s;
-}
-.textoImagen {
-    color:white;
-    font-weight: 800;
-    font-style:oblique;
-    font-size: 40px;
-    position: absolute;
-    top: 45%;
-    left: 37%;
-    -webkit-text-stroke: 2px black;
-    transition: opacity 1s;
-    opacity: 0;
-}
-.eventosGastronomicos {
-    color: black;
-    -webkit-text-stroke: 1px white;
-}
-.containIndex:hover .imagenPrincipal{
-    opacity: 30%;
-}
-.containIndex:hover .textoImagen{
-    opacity: 100%;
-}
-
 /* MIS PLATOS */
 .titulo {
     text-align: center;
@@ -144,7 +104,7 @@ body {
     width: 400px;
     height: 500px;
     object-fit: cover;
-    border: solid 5px black;
+    border: solid 3px black;
     border-radius: 8px;
 }
 .contenedorBibliografia__div2 p{
