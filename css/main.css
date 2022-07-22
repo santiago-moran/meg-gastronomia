@@ -112,3 +112,104 @@ body {
 
 .footerGaleria {
   margin-top: 10%; }
+
+.titulo {
+  color: black;
+  border-bottom: solid 2px black;
+  width: 60%;
+  margin-left: 20%; }
+
+.contenedorBibliografia {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%; }
+
+.contenedorBibliografia__div1 img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border: solid 3px black;
+  border-radius: 8px; }
+
+.contenedorBibliografia__div2 p {
+  color: black;
+  margin-left: 5%;
+  max-width: 400px; }
+
+.boton {
+  margin-top: 5%;
+  border: solid 4px black;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2%;
+  background-color: grey;
+  font-weight: 700; }
+
+.boton a {
+  text-decoration: none;
+  color: black; }
+
+.boton:hover {
+  background-color: olivedrab; }
+
+.Formulario {
+  margin-top: 5%; }
+
+.divFormulario {
+  margin-top: 3%; }
+
+.tituloFormulario {
+  color: black;
+  text-align: center;
+  font-style: italic;
+  border-bottom: solid 2px black;
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 3%; }
+
+.footerContacto {
+  margin-top: 10.5%; }
+
+.Catering {
+  display: flex;
+  justify-content: space-between; }
+
+.Opciones {
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 5%; }
+
+.TresPasos {
+  text-align: center;
+  font-style: italic; }
+
+.Dulce {
+  font-style: italic; }
+
+.Opciones h2 {
+  border-bottom: solid 2px black; }
+
+.Opciones div ul {
+  list-style: none;
+  margin-right: 10%; }
+
+.Opciones div p {
+  font-weight: 700; }
+
+.Imagenes {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%; }
+
+.imagenCatering {
+  width: 600px;
+  margin-top: 10%;
+  border: solid 6px black;
+  border-radius: 10px; }
+
+.carouselCatering {
+  display: none; }
+
+.footercatering {
+  margin-top: 5%; }
