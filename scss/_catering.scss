@@ -11,19 +11,27 @@
         &__TresPasos {
             text-align:center;
             font-style: italic;
+            color: white;
+            -webkit-text-stroke: 1px black;
         }
         div {
             ul{
                 list-style: none;
                 margin-right: 10%;
+                color: white;
+                -webkit-text-stroke: 0.3px black;
             }
             p {
-                font-weight: 700; 
+                font-weight: 700;
+                color: white;
+                -webkit-text-stroke: 0.3px black;
             }
         }
     }
     .Dulce {
         font-style: italic;
+        color: white;
+        -webkit-text-stroke: 1px black;
     }
     .Imagenes{
         display: flex;
@@ -31,6 +39,7 @@
         margin-right: 5%;
         &__imagenCatering {
             width: 600px;
+            height: 350px;
             margin-top: 10%;
             border: map-get($borders, "image-border" );
             border-radius: 10px;
@@ -40,6 +49,6 @@
         display: none;
     }
     .footercatering {
-        margin-top: 5%;
+        margin-top: 20%;
     }
 }

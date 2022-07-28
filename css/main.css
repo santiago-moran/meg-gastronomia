@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: black; }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 body {
-  background-image: url(../images/imagen_fondo.png);
+  background-image: url(../images/imagen_fondo2.png);
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .barraNav {
   border-bottom: solid 3px black; }
@@ -24,6 +24,7 @@ body {
 
 .logosFooter {
   background-color: grey;
+  margin-top: 5%;
   border-top: solid 3px black;
   font-size: 25px;
   text-align: center; }
@@ -99,7 +100,9 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     opacity: 0;
-    transition: opacity 1s; }
+    transition: opacity 1s;
+    color: white;
+    -webkit-text-stroke: 0.5px black; }
   .divPlatos .p5 {
     position: absolute;
     top: 55%;
@@ -109,7 +112,9 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     opacity: 0;
-    transition: opacity 1s; }
+    transition: opacity 1s;
+    color: white;
+    -webkit-text-stroke: 0.5px black; }
   .divPlatos .p6 {
     position: absolute;
     top: 55%;
@@ -119,7 +124,9 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     opacity: 0;
-    transition: opacity 1s; }
+    transition: opacity 1s;
+    color: white;
+    -webkit-text-stroke: 0.5px black; }
   .divPlatos:hover .divPlatos__imagenPlatos {
     opacity: 30%; }
   .divPlatos:hover .p1-4 {
@@ -133,17 +140,18 @@ body {
   display: none; }
 
 .delicioso {
-  color: white;
-  -webkit-text-stroke: 1px black; }
+  color: black;
+  -webkit-text-stroke: 0.2px white; }
 
 .footerGaleria {
   margin-top: 10%; }
 
 .titulo {
-  color: black;
+  color: white;
   border-bottom: solid 2px black;
   width: 60%;
-  margin-left: 20%; }
+  margin-left: 20%;
+  -webkit-text-stroke: 1px black; }
 
 .contenedorBibliografia {
   display: flex;
@@ -157,7 +165,8 @@ body {
     border: solid 3px black;
     border-radius: 8px; }
   .contenedorBibliografia__div2 p {
-    color: black;
+    color: white;
+    -webkit-text-stroke: 0.4px black;
     margin-left: 5%;
     max-width: 400px; }
   .contenedorBibliografia .boton {
@@ -175,7 +184,8 @@ body {
       background-color: olivedrab; }
 
 .tituloFormulario {
-  color: black;
+  color: white;
+  -webkit-text-stroke: 1px black;
   text-align: center;
   font-style: italic;
   border-bottom: solid 2px black;
@@ -202,27 +212,36 @@ body {
       border-bottom: solid 2px black; }
     .Catering__Opciones__TresPasos {
       text-align: center;
-      font-style: italic; }
+      font-style: italic;
+      color: white;
+      -webkit-text-stroke: 1px black; }
     .Catering__Opciones div ul {
       list-style: none;
-      margin-right: 10%; }
+      margin-right: 10%;
+      color: white;
+      -webkit-text-stroke: 0.3px black; }
     .Catering__Opciones div p {
-      font-weight: 700; }
+      font-weight: 700;
+      color: white;
+      -webkit-text-stroke: 0.3px black; }
   .Catering .Dulce {
-    font-style: italic; }
+    font-style: italic;
+    color: white;
+    -webkit-text-stroke: 1px black; }
   .Catering .Imagenes {
     display: flex;
     flex-direction: column;
     margin-right: 5%; }
     .Catering .Imagenes__imagenCatering {
       width: 600px;
+      height: 350px;
       margin-top: 10%;
       border: solid 3px black;
       border-radius: 10px; }
   .Catering .carouselCatering {
     display: none; }
   .Catering .footercatering {
-    margin-top: 5%; }
+    margin-top: 20%; }
 
 @media screen and (max-width: 1024px) {
   /* INDEX */

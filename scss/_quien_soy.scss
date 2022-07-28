@@ -1,8 +1,9 @@
 .titulo{
-    color: black;
+    color: white;
     border-bottom: map-get($borders, "title-borders");
     width: 60%;
     margin-left: 20%;
+    -webkit-text-stroke: 1px black;
 }
 .contenedorBibliografia{
     display: flex;
@@ -20,7 +21,8 @@
     }
     &__div2{
         p {
-            color: black;
+            color: white;
+            -webkit-text-stroke: 0.4px black;
     margin-left: 5%;
     max-width: 400px;
         }
