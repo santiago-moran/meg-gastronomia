@@ -1,43 +1,45 @@
 .Catering{
     display: flex;
     justify-content: space-between;
-}
-.Opciones {
-    text-align: center;
-    margin-left: 10%;
-    margin-top: 5%;
-}
-.TresPasos{
-    text-align:center;
-    font-style: italic;
-}
-.Dulce {
-    font-style: italic;
-}
-.Opciones h2 {
-    border-bottom: solid 2px black;
-}
-.Opciones div ul{
-    list-style: none;
-    margin-right: 10%;
-}
-.Opciones div p{
-    font-weight: 700;
-}
-.Imagenes{
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
-}
-.imagenCatering{
-    width: 600px;
-    margin-top: 10%;
-    border: solid 6px black;
-    border-radius: 10px;
-}
-.carouselCatering{
-    display: none;
-}
-.footercatering {
-    margin-top: 5%;
+    &__Opciones {
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 5%;
+        h2 {
+            border-bottom: map-get($borders, "title-borders" );
+        }
+        &__TresPasos {
+            text-align:center;
+            font-style: italic;
+        }
+        div {
+            ul{
+                list-style: none;
+                margin-right: 10%;
+            }
+            p {
+                font-weight: 700; 
+            }
+        }
+    }
+    .Dulce {
+        font-style: italic;
+    }
+    .Imagenes{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5%;
+        &__imagenCatering {
+            width: 600px;
+            margin-top: 10%;
+            border: map-get($borders, "image-border" );
+            border-radius: 10px;
+        }
+    }
+    .carouselCatering{
+        display: none;
+    }
+    .footercatering {
+        margin-top: 5%;
+    }
 }

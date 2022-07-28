@@ -1,0 +1,44 @@
+.titulo{
+    color: black;
+    border-bottom: map-get($borders, "title-borders");
+    width: 60%;
+    margin-left: 20%;
+}
+.contenedorBibliografia{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    &__div1{
+        img {
+            width: 400px;
+            height: 500px;
+            object-fit: cover;
+            border: map-get($borders, "image-border");
+            border-radius: 8px;
+        }
+    }
+    &__div2{
+        p {
+            color: black;
+    margin-left: 5%;
+    max-width: 400px;
+        }
+    }
+    .boton{
+        margin-top: 5%;
+        border: map-get($borders, "image-border");
+        border-radius: 10px;
+        width: fit-content;
+        padding: 2%;
+        background-color: grey;
+        font-weight: 700;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        &:hover{
+            background-color: olivedrab;
+        }
+    }
+}

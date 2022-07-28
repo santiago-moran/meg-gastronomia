@@ -1,0 +1,268 @@
+@media screen and (max-width: 1024px){
+    /* INDEX */
+    .containIndex__imagenPrincipal{
+        width: 850px;
+    }
+    .containIndex__textoImagen {
+        top: 40%;
+        left: 34%;
+        width: 590px;
+    }
+    /* MIS PLATOS */
+    .divPlatos__imagenPlatos{
+        width: 450px;
+    }
+    .footerGaleria{
+        margin-top: 5%;
+    }
+    /* CATERING */
+    .Imagenes{
+        margin-left: 5%;
+    }
+    .footercatering{
+        margin-top: 5%;
+    }
+    /* CONTACTO */
+    .footerContacto{
+        margin-top: 13.8%;
+    }
+}
+@media screen and (max-width: 768px){
+    /* INDEX */
+    .containIndex__imagenPrincipal{
+        width: 636px;
+        height: 550px;
+    }
+    .containIndex__textoImagen {
+        top: 40%;
+        left: 15%;
+        width: 590px;
+    }
+    /* MIS PLATOS */
+    .divPlatos__imagenPlatos{
+        width: 300px;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .p1-4 {
+        font-size: 15px;
+    }
+    .footerGaleria{
+        margin-top: 10%;
+    }
+    /* QUIEN SOY */
+    .contenedorBibliografia__div1 img{
+        width: 300px;
+        height: 400px;
+    }
+    .contenedorBibliografia__div2 p{
+        font-size: 15px;
+    }
+    .footerBibliografia {
+        margin-top: 13.7%;
+    }
+    /* CATERING */
+    .Imagenes{
+        height: fit-content;
+        &__imagenCatering {
+            width: 400px;
+        }
+    }
+    .mesaDulce{
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 90%;
+        color: white;
+        .Dulce{
+            margin-top: 20%;
+        }
+    }
+    .alimento{
+        color: white;
+    }
+    .footercatering{
+        margin-top: 0;
+    }
+    /* CONTACTO */
+    .tituloFormulario{
+        font-size: 30px;
+    }
+    .footerContacto{
+        margin-top: 26%;
+        margin-bottom: 0;
+    }
+
+}
+@media screen and (max-width: 320px){
+    /* HTML GENERAL */
+    .container-fluid__imagenHeader {
+        margin:2% 10%;
+        width: 70px;
+        border: map-get($borders, "image-border");
+    }
+    /* INDEX */
+    .containIndex__imagenPrincipal{
+        width: 250px;
+        height: 570px;
+        margin-left: 14%;
+    }
+    .containIndex__textoImagen {
+        text-align: center;
+        font-size: 30px;
+        top: 30%;
+        left: 20%;
+        width: 200px;
+    }
+    /* MIS PLATOS */
+    .tituloPlatos{
+        width: 70%;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 14%;
+    }
+    .divPlatos__imagenPlatos{
+        display: none;
+        width: 250px;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+    .carrousel{
+        display: block;
+        margin: 5% 5% 0 5%;
+    }
+    .textoPlatos1{
+        display: none;
+    }
+    .divPlatos{
+        position: relative;
+        &__imagenCarrousel {
+            width: 200px;
+            height: 180px;
+            object-fit: cover;
+            border: map-get($borders, "image-border");
+            border-radius: 8px;
+            transition: $transition;
+        }
+        .texto1{
+            @include textoPlatos2 (30%);
+        }
+        .texto2{
+            @include textoPlatos2 (30%);
+        }
+        .texto3{
+            @include textoPlatos2 (30%);
+        }
+        .texto4{
+            @include textoPlatos2 (25%);
+        }
+        .texto5{
+            @include textoPlatos2 (20%);
+        }
+        .texto6{
+            @include textoPlatos2 (20%);
+        }
+        &:hover &__imagenCarrousel {
+            opacity: map-get($opacity, "image-opacity");
+        }
+        &:hover .texto1 {
+            opacity: map-get($opacity, "text-opacity");
+        }
+        &:hover .texto2 {
+            opacity: map-get($opacity, "text-opacity");
+        }
+        &:hover .texto3 {
+            opacity: map-get($opacity, "text-opacity");
+        }
+        &:hover .texto4 {
+            opacity: map-get($opacity, "text-opacity");
+        }
+        &:hover .texto5 {
+            opacity: map-get($opacity, "text-opacity");
+        }
+        &:hover .texto6 {
+            opacity: map-get($opacity, "text-opacity");
+        }
+    }
+    .divPlatos:hover .textoPlatos2 {
+        opacity: map-get($opacity, "text-opacity");
+    }
+    .footerGaleria{
+        margin-top: 35%;
+    }
+    /* QUIEN SOY */
+    .contenedorBibliografia{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorBibliografia__div1 img{
+        margin-left: 15%;
+        width: 200px;
+        height: 300px;
+    }
+    .contenedorBibliografia__div2 p{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 13px;
+        margin-right: 7%;
+    }
+    .divBoton{
+        margin-left: 18%;
+        margin-top: 7%;
+    }
+    .boton a{
+        font-size: 12px;
+    }
+    /* CATERING */
+    .Catering{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .TresPasos{
+        font-size: 20px;
+        width: 90%;
+    }
+    .Opciones div{
+        margin-right: 5%;
+    }
+    .Opciones div ul{
+        font-size: 15px;
+    }
+    .Dulce{
+        font-size: 20px;
+        width: 90%;
+    }
+    .imagenCatering{
+        width: 0;
+        display: none;
+    }
+    .mesaDulce{
+        margin: 0;
+        color: black;
+    }
+    .alimento{
+        color: black;
+        margin-right: 7%;
+    }
+    .carouselCatering{
+        display: block;
+        margin: 5% 5% 0 5%;
+    }
+    .fotocatering{
+        border: map-get($borders, "image-border");
+        border-radius: 8px;
+    }
+    .footercatering{
+        margin-top: 15%;
+    }
+    /* CONTACTO */
+    .tituloFormulario{
+        font-size: 22px;
+    }
+    .footerContacto{
+        margin-top: 60%;
+    }
+    .container{
+        margin-top: 5%;
+    }
+}

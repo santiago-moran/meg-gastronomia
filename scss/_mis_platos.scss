@@ -1,0 +1,49 @@
+.titulo {
+    text-align: center;
+    padding-top: 3%;
+    font-style: italic;
+    font-size: 35px;
+}
+.divPlatos {
+    position: relative;
+    &__imagenPlatos{
+        width: 600px;
+        height: 350px;
+        object-fit: cover;
+        border: map-get($borders, "image-border");
+        border-radius: 8px;
+        margin-top: 10%;
+        transition: $transition
+    }
+    .p1-4 {
+        @include textoPlatos1 (55%, 30%);
+    }
+    .p5{
+        @include textoPlatos1 (55%, 25%);
+    }
+    .p6 {
+        @include textoPlatos1 (55%, 25%);
+    }
+    &:hover &__imagenPlatos {
+        opacity: map-get($opacity, "image-opacity" );
+    }
+    &:hover .p1-4{
+        opacity: map-get($opacity, "text-opacity" );
+    }
+    &:hover .p5{
+        opacity: map-get($opacity, "text-opacity" );
+    }
+    &:hover .p6{
+        opacity: map-get($opacity, "text-opacity" );
+    }
+}
+.carrousel {
+    display: none;
+}
+.delicioso {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+.footerGaleria {
+    margin-top: 10%;
+}

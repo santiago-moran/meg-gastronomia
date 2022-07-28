@@ -1,0 +1,39 @@
+@mixin textoPlatos1 ($top, $left) {
+    position: absolute;
+    top:$top;
+    left: $left;
+    color: black;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity: map-get($opacity, "text-opacity-init");
+    transition: $transition;
+    
+}
+@mixin textoPlatos2 ($left) {
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    transition: $transition;
+    opacity: map-get($opacity, "text-opacity-init");
+    position: absolute;
+    top:45%;
+    left: $left;
+}
+@mixin mediaQuary ($pantalla) {
+    @if $pantalla == "desktop" {
+        @media screen and (max-width: 1024px) {
+            @content
+        }
+    };
+    @if $pantalla == "tablet" {
+        @media screen and (max-width: 768px) {
+            @content
+        }
+    };
+    @if $pantalla == "mobile" {
+        @media screen and (max-width: 320px) {
+            @content
+        }
+    }
+}

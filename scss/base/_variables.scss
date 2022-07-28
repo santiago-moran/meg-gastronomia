@@ -1,4 +1,9 @@
 $transition: opacity 1s;
+$opacity: (
+    "text-opacity-init": 0,
+    "text-opacity": 100%,
+    "image-opacity": 30%
+);
 $borders: (
     "image-border": solid 3px black,
     "title-borders": solid 2px black

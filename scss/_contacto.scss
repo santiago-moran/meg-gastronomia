@@ -1,17 +1,17 @@
-.Formulario{
-    margin-top: 5%;
-}
-.divFormulario {
-    margin-top: 3%;
-}
 .tituloFormulario{
     color: black;
     text-align: center;
     font-style: italic;
-    border-bottom: solid 2px black;
+    border-bottom: map-get($borders, "title-borders" );
     width: 80%;
     margin-left: 12%;
     margin-top: 3%;
+}
+.Formulario{
+    margin-top: 5%;
+    &__divFormulario {
+        margin-top: 3%;
+    }
 }
 .footerContacto{
     margin-top: 10.5%;

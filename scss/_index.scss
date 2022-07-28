@@ -11,6 +11,10 @@
         border-radius: 6px;
         object-fit: cover;
         transition: $transition;
+        /* @include mediaQuary ("tablet") {
+            width: 636px;
+            height: 550px;
+        } */
     }
     &__textoImagen {
         color:white;
@@ -22,16 +26,21 @@
         left: 37%;
         -webkit-text-stroke: 2px black;
         transition: $transition;
-        opacity: 0;
+        opacity: map-get($opacity, "text-opacity-init");
         .eventosGastronomicos {
             color: black;
             -webkit-text-stroke: 1px white;
         }
+        /* @include mediaQuary ("tablet") {
+            top: 40%;
+            left: 15%;
+            width: 590px;
+        } */
     }
-    &:hover .containIndex__imagenPrincipal{
-        opacity: 30%;
+    &:hover &__imagenPrincipal{
+        opacity: map-get($opacity, "image-opacity");
     }
-    &:hover .containIndex__textoImagen{
-        opacity: 100%;
+    &:hover &__textoImagen{
+        opacity: map-get($opacity, "text-opacity");
     }
 }
