@@ -20,8 +20,13 @@
                 margin-right: 10%;
                 color: white;
                 -webkit-text-stroke: 0.3px black;
+                li{
+                    margin-top: 3%;
+                }
             }
             p {
+                font-size: 18px;
+                margin-top: 5%;
                 font-weight: 700;
                 color: white;
                 -webkit-text-stroke: 0.3px black;
@@ -32,6 +37,9 @@
         font-style: italic;
         color: white;
         -webkit-text-stroke: 1px black;
+    }
+    .carouselCatering{
+        display: none;
     }
     .Imagenes{
         display: flex;
@@ -44,9 +52,6 @@
             border: map-get($borders, "image-border" );
             border-radius: 10px;
         }
-    }
-    .carouselCatering{
-        display: none;
     }
     .footercatering {
         margin-top: 20%;
