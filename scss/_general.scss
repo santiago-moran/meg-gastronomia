@@ -11,6 +11,7 @@ body {
 }
 .barraNav {
     border-bottom: map-get($borders, "image-border");
+    background-color: rgb(180, 180, 180);
 }
 .container-fluid {
     &__imagenHeader {
@@ -27,7 +28,7 @@ body {
     }
 }
 .logosFooter {
-    background-color: grey;
+    background-color: rgb(180, 180, 180);
     margin-top: 5%;
     border-top: map-get($borders, "image-border");
     font-size: 25px;

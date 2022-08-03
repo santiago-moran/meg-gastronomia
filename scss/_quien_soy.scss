@@ -27,20 +27,4 @@
     max-width: 400px;
         }
     }
-    .boton{
-        margin-top: 5%;
-        border: map-get($borders, "image-border");
-        border-radius: 10px;
-        width: fit-content;
-        padding: 2%;
-        background-color: grey;
-        font-weight: 700;
-        a {
-            text-decoration: none;
-            color: black;
-        }
-        &:hover{
-            background-color: olivedrab;
-        }
-    }
 }
