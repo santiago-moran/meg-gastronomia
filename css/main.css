@@ -199,7 +199,8 @@ body {
       list-style: none;
       margin-right: 10%;
       color: white;
-      -webkit-text-stroke: 0.3px black; }
+      -webkit-text-stroke: 0.3px black;
+      text-align: left; }
       .Catering__Opciones div ul li {
         margin-top: 3%;
         list-style: disc;
@@ -788,13 +789,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0; }
-    .Catering__Opciones div {
-      margin-right: 5%; }
-      .Catering__Opciones div ul {
-        font-size: 15px; }
+    .Catering__Opciones div ul {
+      font-size: 15px; }
     .Catering__Opciones__TresPasos {
       font-size: 20px;
-      width: 90%;
+      width: 100%;
       -webkit-text-stroke: 0.5px black; }
     .Catering .Imagenes__imagenCatering {
       width: 0;
