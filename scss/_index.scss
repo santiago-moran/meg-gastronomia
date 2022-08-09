@@ -7,7 +7,8 @@
     &__imagenPrincipal{
         margin-top: 8%;
         margin-bottom: 10.1%;
-        width: 1240px;
+       /*  width: 1240px; */
+        width: 90%;
         height: 500px;
         border: map-get($borders, "image-border");
         border-radius: 6px;
@@ -15,6 +16,7 @@
         transition: $transition;
     }
     &__textoImagen {
+        width: 100%;
         color:white;
         font-weight: 800;
         font-style:oblique;

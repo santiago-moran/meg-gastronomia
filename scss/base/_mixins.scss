@@ -20,20 +20,3 @@
     top:45%;
     left: $left;
 }
-@mixin mediaQuary ($pantalla) {
-    @if $pantalla == "desktop" {
-        @media screen and (max-width: 1024px) {
-            @content
-        }
-    };
-    @if $pantalla == "tablet" {
-        @media screen and (max-width: 768px) {
-            @content
-        }
-    };
-    @if $pantalla == "mobile" {
-        @media screen and (max-width: 320px) {
-            @content
-        }
-    }
-}
